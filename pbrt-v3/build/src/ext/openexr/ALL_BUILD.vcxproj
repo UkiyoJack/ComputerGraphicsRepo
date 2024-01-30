@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{17EEAFE9-FE90-36BF-B0B7-EEF6DD8CCE68}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\IlmThread;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\S22123300\Desktop\Computer Graphics\cmake-3.28.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3" "-BC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build" --check-stamp-file "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\S22123300\Desktop\Computer Graphics\cmake-3.28.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3" "-BC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build" --check-stamp-file "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Users\S22123300\Desktop\Computer Graphics\cmake-3.28.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3" "-BC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build" --check-stamp-file "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/src/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Users\S22123300\Desktop\Computer Graphics\cmake-3.28.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3" "-BC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build" --check-stamp-file "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\ZERO_CHECK.vcxproj">
+      <Project>{83CC474F-C6AA-3801-A065-13D16D08D671}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{A5D41E4B-C25E-3A0B-8362-6B953A02135B}</Project>
+      <Name>Half</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{57F1D78A-3956-32B0-8159-38C54AF5F982}</Project>
+      <Name>Iex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\IexMath\IexMath.vcxproj">
+      <Project>{95CEB8F3-E412-3F96-B072-2657DA9ECDE0}</Project>
+      <Name>IexMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf.vcxproj">
+      <Project>{D36C40A1-493C-37F8-8605-8793694CB2F3}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\IlmImf-obj.vcxproj">
+      <Project>{C84686CD-F494-3AD7-AD2D-32F3D79B8D84}</Project>
+      <Name>IlmImf-obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{E8C8E4E9-F985-3729-8D81-7BA64DE8EA93}</Project>
+      <Name>IlmThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{995FF539-6A46-3152-B76B-F227B038A710}</Project>
+      <Name>Imath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{9D580A25-4A8E-3F88-B867-DAEB5D4EBAF6}</Project>
+      <Name>b44ExpLogTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{13D5BCA9-BC8A-346E-867F-E83866689A99}</Project>
+      <Name>dwaLookups</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half\eLut.vcxproj">
+      <Project>{C59A1374-7FF4-3173-B8FE-04BB292C49C6}</Project>
+      <Name>eLut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half\toFloat.vcxproj">
+      <Project>{963D736C-4B20-38C8-94DE-86C1BBE6BBDE}</Project>
+      <Name>toFloat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

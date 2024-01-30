@@ -1,0 +1,38 @@
+^C:\USERS\S22123300\DESKTOP\COMPUTER GRAPHICS\PBRT-V3\BUILD\CMAKEFILES\D12BE2857CCDA2F1C6804D1814874AB7\ELUT.H.RULE
+setlocal
+cd "C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half\Debug\eLut.exe" > "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/IlmBase/Half/eLut.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\S22123300\DESKTOP\COMPUTER GRAPHICS\PBRT-V3\BUILD\CMAKEFILES\D12BE2857CCDA2F1C6804D1814874AB7\TOFLOAT.H.RULE
+setlocal
+cd "C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Half\Debug\toFloat.exe" > "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/IlmBase/Half/toFloat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\S22123300\DESKTOP\COMPUTER GRAPHICS\PBRT-V3\SRC\EXT\OPENEXR\ILMBASE\HALF\CMAKELISTS.TXT
+setlocal
+"C:\Users\S22123300\Desktop\Computer Graphics\cmake-3.28.1-windows-x86_64\bin\cmake.exe" "-SC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3" "-BC:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build" --check-stamp-file "C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/build/src/ext/openexr/IlmBase/Half/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

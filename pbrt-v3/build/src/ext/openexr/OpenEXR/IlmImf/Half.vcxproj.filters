@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half\half.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\CMakeFiles\d12be2857ccda2f1c6804d1814874ab7\eLut.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\CMakeFiles\d12be2857ccda2f1c6804d1814874ab7\toFloat.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\openexr\IlmBase\Half\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DF577564-63CE-3777-8B85-03EB6BF66297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2586B840-06F3-34BA-8F33-E2C74C55A9B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

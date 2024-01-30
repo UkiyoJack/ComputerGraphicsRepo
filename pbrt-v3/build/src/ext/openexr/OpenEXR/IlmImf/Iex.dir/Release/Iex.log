@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/S22123300/Desktop/Computer Graphics/pbrt-v3/src/ext/openexr/IlmBase/Iex/CMakeLists.txt
+  IexBaseExc.cpp
+  IexThrowErrnoExc.cpp
+  Generating Code...
+  Iex.vcxproj -> C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\openexr\IlmBase\Iex\Release\Iex.lib

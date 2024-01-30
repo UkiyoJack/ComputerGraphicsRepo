@@ -1,0 +1,15 @@
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\adler32.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\adler32.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\compress.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\compress.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\crc32.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\crc32.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\deflate.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\deflate.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\gzclose.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\gzclose.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\gzlib.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\gzlib.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\gzread.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\gzread.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\gzwrite.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\gzwrite.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\inflate.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\inflate.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\infback.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\infback.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\inftrees.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\inftrees.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\inffast.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\inffast.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\trees.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\trees.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\uncompr.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\uncompr.obj
+C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\src\ext\zlib\zutil.c;C:\Users\S22123300\Desktop\Computer Graphics\pbrt-v3\build\src\ext\zlib\zlibstatic.dir\Debug\zutil.obj
